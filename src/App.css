@@ -1,0 +1,42 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: linear-gradient(to right, #4C3AE3 , #00BC40);
+  font-family: 'Poppins';
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  margin-left: 10px;
+  margin-right: 40px;
+}
+
+input {
+  margin-right: 20px;
+  width: 220px;
+  height: 20px;
+  border: none;
+  border-radius: 6px;
+  padding: 5px;
+
+}
+
+.search {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #EF5354;
+  color: white;
+  cursor: pointer;
+}
